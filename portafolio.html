@@ -1,0 +1,13 @@
+---
+layout: default
+titulo: Proyectos Personales
+---
+<h2><u>Lista de proyectos</u></h2>
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <h3>{{ project.titulo_proyecto }}</h3>
+      <p>{{ project.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

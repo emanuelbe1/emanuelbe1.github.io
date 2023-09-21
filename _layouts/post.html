@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    {% include art_head.html %}
+    <body>
+        <header>
+            {% include navigation.html %}
+            <h1>{{ page.titulo }}</h1>
+            <font size="2">{{ page.date | date_to_string }}</font>
+
+        </header>
+        <main>
+            {{ content }}
+        </main>
+        <footer>
+	    <a href="/blog" class="boton">Volver al blog</a>
+            <p>&copy; 2023 Emanuel B.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+- name: Inicio
+  link: /
+- name: Blog 
+  link: /blog
+- name: Proyectos Personales 
+  link: /portafolio
+- name: Sobre mi 
+  link: /about
+- name: Contacto 
+  link: /contacto

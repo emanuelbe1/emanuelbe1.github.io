@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* cambia el fondo a negro */
+  color: white; /*cambia color texto a blanco */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #ebe8ff;
+}
+
+p {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.project_image {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.read_more {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.current {
+  color: green;
+}
+
+h3 a{
+ color: #9a98c3;
+ text-decoration: none;
+}
+
+
+ul li h3 {
+  margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+  padding-top: 20px;
+}
+
+h3 {
+ color: #9a98c3;
+}

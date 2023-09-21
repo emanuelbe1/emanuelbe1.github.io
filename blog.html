@@ -1,0 +1,15 @@
+---
+layout: default
+titulo: Blog
+---
+<h2><u>Lista de artículos</u></h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.titulo }}</a></h3>
+      <font size = "1">{{ post.date | date_to_string }} </font>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
